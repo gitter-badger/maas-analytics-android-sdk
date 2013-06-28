@@ -1,7 +1,5 @@
 package com.phunware.analytics.sample;
 
-import org.apache.http.message.BasicNameValuePair;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -51,10 +49,10 @@ public class DetailsActivity extends Activity {
 		if(item.getItemId() == R.id.action_settings)
 		{
 			//Send an event that the user clicked on the menu item for settings.
-			BasicNameValuePair[] params = new BasicNameValuePair[1];
-			params[0] = new BasicNameValuePair("Menu Item", "Settings");
-			PwAnalyticsModule.addEventWithParameters(this, "Clicked Menu", params);
+			PwAnalyticsModule.addEventWithParameters(this, "Clicked Menu", 
+					Utils.buildParameter("Menu Item", "Settings"));
 			Toast.makeText(this, "No implementation, however I've seen you want to see settings :)", Toast.LENGTH_SHORT).show();
+			return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -65,7 +63,6 @@ public class DetailsActivity extends Activity {
 		PwCoreSession.getInstance().activityStopSession(this);
 		//Stop timing the event for how long the user is on this activity.
 		//Send the parameter for the current orientation.
-		PwAnalyticsModule.endTimedEventWithParameters(this, TAG,
-				new BasicNameValuePair[]{Utils.getOrientationParam(getResources())});
+		PwAnalyticsModule.endTimedEventWithParameters(this, TAG, Utils.getOrientationParam(getResources()) );
 	}
 }
