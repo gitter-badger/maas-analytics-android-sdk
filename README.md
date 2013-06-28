@@ -63,7 +63,7 @@ public void endLevel()
 
 ### Event Parameters
 
-MaaSAnalytics allows you to paramaterize your all of your events with up to 10 key value string pairs.
+MaaSAnalytics allows you to paramaterize all of your events with up to 10 string key pair values.
 ```Java
 @Override
 public void onCreate()
