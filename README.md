@@ -8,7 +8,7 @@ The MaaS Analytics SDK provides the ability to generate custom analytic events. 
 in time or with duration data (for timed events).
 
 ##Prerequisites
-The MaaS Analytics SDK requires the `MaaS Core SDK`.
+The MaaS Analytics SDK requires the latest `MaaS Core SDK`.
 
 Be sure to install the module in the `Application` `onCreate` method before registering keys. For example:
 ``` Java
