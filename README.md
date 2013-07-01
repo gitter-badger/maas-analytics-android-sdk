@@ -1,7 +1,7 @@
 #Mobile as a Service
 
 ######Android MaaS Analytics Documentation
-**v 1.0.0**
+**v 1.1.0**
 ________________
 ##Overview
 The MaaS Analytics SDK provides the ability to generate custom analytic events. Events can be created at a single point
