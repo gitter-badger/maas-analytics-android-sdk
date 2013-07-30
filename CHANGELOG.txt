@@ -1,0 +1,4 @@
+#MaaSAnalytics Changelog
+
+##1.1.1 (Tuesday, July 30th, 2013)
+ * Minor bug fixes
