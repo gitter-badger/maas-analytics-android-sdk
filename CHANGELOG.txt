@@ -1,4 +1,7 @@
 #MaaSAnalytics Changelog
 
+##1.2.0 (Wednesday, July 31st, 2013)
+ * Requires MaaSCore 1.2.0
+ 
 ##1.1.1 (Tuesday, July 30th, 2013)
  * Minor bug fixes
