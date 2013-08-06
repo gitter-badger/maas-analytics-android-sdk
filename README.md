@@ -2,7 +2,7 @@
 
 [Android MaaS Analytics Documentation](http://phunware.github.io/maas-analytics-android-sdk/)
 
-**v 1.2.0**
+**v 1.3.0**
 ________________
 ##Overview
 The MaaS Analytics SDK provides the ability to generate custom analytic events. Events can be created at a single point
@@ -43,6 +43,8 @@ public class AnalyticsSample extends Activity
 }
 ```
 
+*All event names must be alphanumeric strings.*
+
 ### Timed Events
 
 MaaSAnalytics supports timed analytics:
@@ -81,6 +83,8 @@ public void resumeGame()
 ### Event Parameters
 
 MaaSAnalytics allows you to paramaterize all of your events with up to 10 string key pair values.
+*All parameter keys and values must be alphanumeric strings.*
+
 ```Java
 @Override
 public void onCreate()
