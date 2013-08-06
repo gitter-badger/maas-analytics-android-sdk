@@ -66,7 +66,7 @@ public void endLevel()
 
 #### Pausing and Resuming Timed Events
 MaaSAnalytics allows you to pause and resume timed events. If an event is in a paused state when `endTimedEvent` is called on it then the paused timestamp will be used to calculate an event's duration.
-
+```
 public void pauseGame()
 {	
     // Pause a timed event like so
