@@ -26,8 +26,8 @@ public class AnalyticsSample extends ListActivity {
 				getResources().getStringArray(R.array.planets));
 		setListAdapter(adapter);
 		PwAnalyticsModule.addEvent(this, "Featured Page View");
-		PwAnalyticsModule.startTimedEvent(this, "My Awesome Game - Level 1");
-		PwAnalyticsModule.endTimedEvent(this, "My Awesome Game - Level 1");
+		PwAnalyticsModule.startTimedEvent(this, "My Awesome Game Level 1");
+		PwAnalyticsModule.endTimedEvent(this, "My Awesome Game Level 1");
 	}
 	
 	@Override
