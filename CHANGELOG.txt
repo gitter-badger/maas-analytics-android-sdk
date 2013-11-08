@@ -1,14 +1,24 @@
-#MaaSAnalytics Changelog
+MaaSAnalytics Changelog
+==========
+Version 1.3.3 *(2013-11-08)*
+----------------------------
+ * Requires Core v1.3.2
+ * Removed alpha numeric checks on event names and event parameters.
+ * Minor optimizations.
 
-##1.3.1 (Tuesday, August 6th, 2013)
+Version 1.3.1 *(2013-08-06)*
+---------------------------- 
  * Requires MaaSCore 1.2.1
  * Fixed issues with some analytics not sending when parameters are added.
 
-##1.3.0 (Tuesday, August 6th, 2013)
+Version 1.3.0 *(2013-08-06)*
+----------------------------
  * Event Names and Parameters must now be alphanumeric strings.
 
-##1.2.0 (Wednesday, July 31st, 2013)
+Version 1.2.0 *(2013-07-31)*
+----------------------------
  * Requires MaaSCore 1.2.0
  
-##1.1.1 (Tuesday, July 30th, 2013)
+Version 1.1.1 *(2013-07-30)*
+----------------------------
  * Minor bug fixes
