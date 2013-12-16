@@ -6,7 +6,7 @@
 ________________
 ##Overview
 The MaaS Analytics SDK provides the ability to generate custom analytic events. Events can be created at a single point
-in time or with duration data (for timed events).
+in time or with duration data for timed events.
 
 ##Prerequisites
 The MaaS Analytics SDK requires the latest `MaaS Core SDK`.
@@ -16,7 +16,7 @@ Be sure to install the module in the `Application` `onCreate` method before regi
 @Override
 public void onCreate() {
     super.onCreate();
-    /* Other Code */
+    /* Other code */
     PwCoreSession.getInstance().installModules(PwAnalyticsModule.getInstance(), ...);
     /* Other code */
 }
@@ -24,7 +24,7 @@ public void onCreate() {
 
 ### Adding Events
 
-Adding events with MaaSAnalytics is easy:
+To add events with MaaSAnalytics:
 ```JAVA
 public class AnalyticsSample extends Activity
 {
@@ -35,7 +35,7 @@ public class AnalyticsSample extends Activity
         
         /* Other code */
         
-        //Requires a context and event name
+        //Requires a context and event name.
 	     PwAnalyticsModule.addEvent(this, "Featured Page View");
         
         /* Other code */
@@ -51,31 +51,31 @@ MaaSAnalytics supports timed analytics:
 ```Java
 public void startLevel()
 {	
-    // Start a timed event like so
+    // Start a timed event like so:
     PwAnalyticsModule.startTimedEvent(this, "My Awesome Game - Level 1");
     // 'this' refers to a context
 }
 
 public void endLevel()
 {	
-	// To end a timed event pass in the same event name:
+	// And end a timed event pass in the same event name like so:
 	PwAnalyticsModule.endTimedEvent(this, "My Awesome Game - Level 1");
-  // 'this' referes to a context
+  // 'This' referes to a context.
 }
 ```
 
 #### Pausing and Resuming Timed Events
-MaaSAnalytics allows you to pause and resume timed events. If an event is in a paused state when `endTimedEvent` is called on it then the paused timestamp will be used to calculate an event's duration.
+MaaSAnalytics allows you to pause and resume timed events. If an event is in a paused state when `endTimedEvent` is called on it, then the paused timestamp will be used to calculate an event's duration.
 ```
 public void pauseGame()
 {	
-    // Pause a timed event like so
+    // Pause a timed event like so:
     PwAnalyticsModule.pauseTimedEvent("My Awesome Game - Level 1");
 }
 
 public void resumeGame()
 {	
-	// To end a timed event pass in the same event name:
+	// And end a timed event pass in the same event name like so:
 	PwAnalyticsModule.resumeTimedEvent("My Awesome Game - Level 1");
 }
 ```
@@ -110,9 +110,7 @@ public void onStop()
     params = new HashMap<String, String>();
     params.put("difficulty", "easy");
     params.put("attempts", "5");
-    // Keep in mind that when calling endTimedEvent:withParameters it will replace any parameters that you specified in startTimedEvent:withParameters.
+    // Keep in mind that when calling endTimedEvent:withParameters, it will replace any parameters that you specified in startTimedEvent:withParameters.
     PwAnalyticsModule.endTimedEventWithParameters(this, "My Awesome Game - Level 1", params);
 }
 ```
-
-That's all there is to it!
