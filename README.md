@@ -1,15 +1,30 @@
 MaaSAnalytics Android SDK
-================
+==================
 
-[Android MaaS Analytics Documentation](http://phunware.github.io/maas-analytics-android-sdk/)
+Version 1.3.3
 
-**v 1.3.3**
-________________
-##Overview
+This is the Android SDK for Phunware's Alerts & Notifications MaaS module. Visit http://maas.phunware.com/ for more details and to sign up.
+
+
+
+Documentation
+------------
+
+MaaSCore documentation is included in the Documents folder in the repository as both HTML and as a .jar. You can also find the latest documentation here: http://phunware.github.io/maas-analytics-android-sdk/
+
+
+
+Overview
+-----------
+
 The MaaS Analytics SDK provides the ability to generate custom analytic events. Events can be created at a single point
 in time or with duration data for timed events.
 
-##Prerequisites
+
+
+Prerequisites
+-------------
+
 The MaaS Analytics SDK requires the latest `MaaS Core SDK`.
 
 Be sure to install the module in the `Application` `onCreate` method before registering keys. For example:
@@ -22,6 +37,11 @@ public void onCreate() {
     /* Other code */
 }
 ```
+
+
+
+Integration
+------------
 
 ### Adding Events
 
