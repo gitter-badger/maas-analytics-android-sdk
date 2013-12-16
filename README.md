@@ -1,4 +1,5 @@
-#Mobile as a Service
+MaaSAnalytics Android SDK
+================
 
 [Android MaaS Analytics Documentation](http://phunware.github.io/maas-analytics-android-sdk/)
 
