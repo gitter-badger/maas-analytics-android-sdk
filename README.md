@@ -3,14 +3,14 @@ MaaSAnalytics Android SDK
 
 Version 1.3.3
 
-This is the Android SDK for Phunware's Alerts & Notifications MaaS module. Visit http://maas.phunware.com/ for more details and to sign up.
+This is Phunware's Android SDK for the Alerts & Notifications MaaS module. Visit http://maas.phunware.com/ for more details and to sign up.
 
 
 
 Documentation
 ------------
 
-MaaSCore documentation is included in the Documents folder in the repository as both HTML and as a .jar. You can also find the latest documentation here: http://phunware.github.io/maas-analytics-android-sdk/
+MaaS Analytics documentation is included in the Documents folder in the repository as both HTML and as a .jar. You can also find the latest documentation here: http://phunware.github.io/maas-analytics-android-sdk/
 
 
 
