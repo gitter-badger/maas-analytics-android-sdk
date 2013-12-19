@@ -1,4 +1,4 @@
-MaaS Analytics Android SDK
+MaaS Analytics SDK for Android
 ==================
 
 Version 1.3.3
