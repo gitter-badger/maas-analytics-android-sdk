@@ -3,7 +3,7 @@ MaaS Analytics SDK for Android
 
 Version 1.3.3
 
-This is Phunware's Android SDK for the MaaSAnalytics module. Visit http://maas.phunware.com/ for more details and to sign up.
+This is Phunware's Android SDK for the MaaS Analytics module. Visit http://maas.phunware.com/ for more details and to sign up.
 
 
 
@@ -45,7 +45,7 @@ Integration
 
 ### Adding Events
 
-To add events with MaaSAnalytics:
+To add events with MaaS Analytics:
 ```JAVA
 public class AnalyticsSample extends Activity
 {
@@ -68,7 +68,7 @@ public class AnalyticsSample extends Activity
 
 ### Timed Events
 
-MaaSAnalytics supports timed analytics:
+MaaS Analytics supports timed analytics:
 ```Java
 public void startLevel()
 {	
@@ -86,7 +86,7 @@ public void endLevel()
 ```
 
 #### Pausing and Resuming Timed Events
-MaaSAnalytics allows you to pause and resume timed events. If an event is in a paused state when `endTimedEvent` is called on it, then the paused timestamp will be used to calculate an event's duration.
+MaaS Analytics allows you to pause and resume timed events. If an event is in a paused state when `endTimedEvent` is called on it, then the paused timestamp will be used to calculate an event's duration.
 ```
 public void pauseGame()
 {	
@@ -103,7 +103,7 @@ public void resumeGame()
 
 ### Event Parameters
 
-MaaSAnalytics allows you to paramaterize all of your events with up to 10 string key pair values.
+MaaS Analytics allows you to paramaterize all of your events with up to 10 string key pair values.
 *All parameter keys and values must be alphanumeric strings.*
 
 ```Java
