@@ -21,6 +21,26 @@ The MaaS Analytics SDK provides the ability to generate custom analytic events. 
 in time or with duration data for timed events.
 
 
+Installation
+------------
+
+The following libraries are required:
+```
+MaaSCore.jar
+```
+
+MaaS Analytics depends on MaaSCore.jar which is available here: https://github.com/phunware/maas-core-android-sdk
+
+It's recommended that you add the MaaS libraries to the 'libs' directory. This directory should contain MaaSCore.jar
+and MaaSAnalytics.jar as well as any other MaaS libraries that you are using.
+
+Update your `AndroidManifest.xml` to include the following permissions:
+
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+See [AndroidManifest.xml](https://github.com/phunware/maas-analytics-android-sdk/blob/master/Sample/AndroidManifest.xml) for an example manifest file.
+
 
 Prerequisites
 -------------
@@ -37,7 +57,6 @@ public void onCreate() {
     /* Other code */
 }
 ```
-
 
 
 Integration
