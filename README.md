@@ -3,8 +3,7 @@ MaaS Analytics SDK for Android
 
 Version 1.3.4
 
-This is Phunware's Android SDK for the MaaS Analytics module. Visit http://maas.phunware.com/ for more details and to sign up.
-
+This is Phunware's Android SDK for the Analytics module. Visit http://maas.phunware.com/ for more details and to sign up.
 
 
 Documentation
